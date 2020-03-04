@@ -6,7 +6,7 @@
 
 **Graphic** displays graphic content that has been optimized for various devices. The component swaps out images based upon the device's screen size. These device widths are specified in *less/generic.less* of the [Vanilla theme](https://github.com/adaptlearning/adapt-contrib-vanilla).
 
-[Visit the **Graphic** wiki](https://github.com/adaptlearning/adapt-contrib-graphic/wiki) for more information about its functionality and for explanations of key properties. 
+[Visit the **Graphic** wiki](https://github.com/adaptlearning/adapt-contrib-graphic/wiki) for more information about its functionality and for explanations of key properties.
 
 ## Installation
 
@@ -26,7 +26,7 @@ With the [Adapt CLI](https://github.com/adaptlearning/adapt-cli) installed, run 
 
 ## Settings Overview
 
-The attributes listed below are used in *components.json* to configure **Graphic**, and are properly formatted as JSON in [*example.json*](https://github.com/adaptlearning/adapt-contrib-graphic/blob/master/example.json). Visit the [**Graphic** wiki](https://github.com/adaptlearning/adapt-contrib-graphic/wiki) for more information about how they appear in the [authoring tool](https://github.com/adaptlearning/adapt_authoring/wiki). 
+The attributes listed below are used in *components.json* to configure **Graphic**, and are properly formatted as JSON in [*example.json*](https://github.com/adaptlearning/adapt-contrib-graphic/blob/master/example.json). Visit the [**Graphic** wiki](https://github.com/adaptlearning/adapt-contrib-graphic/wiki) for more information about how they appear in the [authoring tool](https://github.com/adaptlearning/adapt_authoring/wiki).
 
 ### Attributes
 
@@ -43,7 +43,7 @@ guide the learner’s interaction with the component.
 
 **_graphic** (object): The image that constitutes the component. It contains values for **alt**, **large**, and **small**.
 
->**alt** (string): This text becomes the image’s `alt` attribute. 
+>**alt** (string): This text becomes the image’s `alt` attribute.
 
 >**large** (string): File name (including path) of the image used with large device width. Path should be relative to the *src* folder (e.g., *course/en/images/origami-menu-two.jpg*).  
 
@@ -57,11 +57,11 @@ guide the learner’s interaction with the component.
 + If the alt text is assigned a value, but the component is not being tracked for course completion, assign the class `"no-state"` to **_classes**. Adapt's accessibility mode reports to the learner the 'state' of the component, whether it is complete or incomplete. It is not common practice to require interaction with (or 'completion' of) an image for course completion. Indeed, a screen reader needlessly announcing the state of an image may be distracting for the learner. Assigning the built-in class `"no-state"` prevents this.  
 
 ## Limitations
- 
+
 No known limitations.  
 
 ----------------------------
-**Version number:**  3.0.0   <a href="https://community.adaptlearning.org/" target="_blank"><img src="https://github.com/adaptlearning/documentation/blob/master/04_wiki_assets/plug-ins/images/adapt-logo-mrgn-lft.jpg" alt="adapt learning logo" align="right"></a> 
+**Version number:**  3.0.1   <a href="https://community.adaptlearning.org/" target="_blank"><img src="https://github.com/adaptlearning/documentation/blob/master/04_wiki_assets/plug-ins/images/adapt-logo-mrgn-lft.jpg" alt="adapt learning logo" align="right"></a> 
 **Framework versions:** 3.3+  
 **Author / maintainer:** Adapt Core Team with [contributors](https://github.com/adaptlearning/adapt-contrib-graphic/graphs/contributors)   
 **Accessibility support:** WAI AA   
