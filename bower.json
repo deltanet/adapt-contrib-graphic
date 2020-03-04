@@ -1,20 +1,20 @@
 {
   "name": "adapt-contrib-graphic",
-  "version": "4.0.0",
-  "framework": ">=5",
+  "version": "3.0.0",
+  "framework": ">=3.3",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-graphic",
   "issues": "https://github.com/adaptlearning/adapt_framework/issues/new",
-  "component" : "graphic",
   "displayName" : "Graphic",
-  "description": "Graphic component which dynamically displays small and large images of different resolutions based upon device width",
-  "main": "/js/adapt-contrib-graphic.js",
+  "component" : "graphic",
   "assetFields" : [
     "_graphic.small",
     "_graphic.large"
   ],
+  "description": "Graphic component which dynamically displays small and large images of different resolutions based upon device width",
+  "main": "/js/adapt-contrib-graphic.js",
   "keywords": [
     "adapt-plugin",
     "adapt-component"
   ],
-  "license": "GPL-3.0"
+  "license": "GPLv3"
 }
